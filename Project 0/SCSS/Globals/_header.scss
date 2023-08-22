@@ -1,0 +1,25 @@
+header {
+  ul {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    li {
+      margin: 10px;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    margin-right: 18%;
+    ul {
+      li {
+        text-decoration: none;
+        list-style-type: none;
+      }
+    }
+  }
+}
